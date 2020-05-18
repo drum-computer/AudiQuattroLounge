@@ -1,0 +1,24 @@
+FontName (AudiSansExtKyr-Bold)
+FullName (AudiSansExtKyr Bold)
+AppleName (AudiSansExtKyr-Bold)
+FamilyName (AudiSansExtKyr)
+Version (001.000)
+isFixedPitch false
+CharacterSet (custom)
+Encoding (SpecificEncoding)
+Pi true
+ItalicAngle 0
+CapHeight 722
+UnderlinePosition -100
+UnderlineThickness 50
+StemWidth 123
+Serif false
+AppleName (AudiSansExtKyr)
+MSMenuName (AudiSansExtKyr)
+VPMenuName (AudiSansExtKyr)
+WORDMenuName (AudiSansExtKyr)
+AppleFONDID 4086
+VPStyle (B)
+WindowsCharSet 200
+WindowsFirstChar 32
+WindowsLastChar 255

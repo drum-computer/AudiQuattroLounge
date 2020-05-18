@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content = "width = device-width, initial-scale = 1.0, minimum-scale = 1, maximum-scale = 1, user-scalable = no" />
+    <title>Audi E-Tron</title>
+</head>
+<body>
+    <div class="wrapper">
+        <button onclick="trigger(this)" class="button">Сделать фото <i class="material-icons md-dark">photo_camera</i></button>
+        <br><br>
+        <button onclick="send()" id="sendBtn" class="callToAction" disabled>Отправить на почту <i class="material-icons md-dark">email</i></button>
+    </div>
+    <button class="home" onclick="cancel()"><i class="material-icons md-light">exit_to_app</i> Главная</button>
+    <script src="js/photo.js"></script>
+</body>
+</html>

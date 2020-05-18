@@ -1,0 +1,169 @@
+body {
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Audi';
+}
+.wrapper {
+    text-align: center;
+    /* margin: 20; */
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.title {
+    color: white;
+}
+.home{
+    background-color: transparent;
+    border: transparent;
+    color: whitesmoke;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: inline;
+    vertical-align: middle;
+}
+.secondaryText{
+    color: white;
+}
+.material-icons.md-light { 
+    color: rgba(255, 255, 255, 1); 
+    display: inline;
+    vertical-align: middle;
+}
+.field {
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: medium;
+    color: white;
+    background-color: transparent;
+}
+.callToAction {
+    width: 305px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: medium;
+    background-color: whitesmoke;
+}
+.inlineP {
+    display: inline;
+    color: white;
+}
+.AgreeRef {
+    color: red;
+}
+.button {
+    color: whitesmoke;
+    width: 305px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: medium;
+    background-color: transparent;
+}
+.material-icons.md-light { 
+    color: rgba(255, 255, 255, 1); 
+    display: inline;
+    vertical-align: middle;
+}
+.material-icons.md-dark { 
+    /* color: rgba(255, 255, 255, 1);  */
+    display: inline;
+    vertical-align: middle;
+}
+
+#userAgreementText{
+    display: none;
+}
+#mailingSubscriptionText{
+    display: none;
+}
+.modal {
+    /* display: none; Hidden by default */
+    position: fixed; /*Stay in place*/
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /*Enable scroll if needed*/
+    /* overflow: scroll; */
+    /* -webkit-overflow-scrolling: auto; */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+  
+/* Modal Content */
+.modal-content {
+background-color: #fefefe;
+margin: auto;
+padding: 20px;
+border: 1px solid #888;
+width: 80%;
+font-size: 14px;
+
+}
+
+/* The Close Button */
+.close {
+color: #aaaaaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../iconfont/MaterialIcons-Regular.eot"); /* For IE6-8 */
+    src: local('Material Icons'),
+         local('MaterialIcons-Regular'),
+         url("../iconfont/MaterialIcons-Regular.woff2") format('woff2'),
+         url("../iconfont/MaterialIcons-Regular.woff") format('woff'),
+         url("../iconfont/MaterialIcons-Regular.ttf") format('truetype');
+ }
+
+ @font-face {
+     font-family: "Audi";
+     font-style: normal;
+     font-weight: 400;
+     src: url("../fonts/AudiSansKyr.ttf");
+     src: url("../fonts/AudiSansKyr.ttf") format('truetype');
+ }
+ 
+ .material-icons {
+   font-family: 'Material Icons';
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;  /* Preferred icon size */
+   display: inline-block;
+   line-height: 1;
+   text-transform: none;
+   letter-spacing: normal;
+   word-wrap: normal;
+   white-space: nowrap;
+   direction: ltr;
+ 
+   /* Support for all WebKit browsers. */
+   -webkit-font-smoothing: antialiased;
+   /* Support for Safari and Chrome. */
+   text-rendering: optimizeLegibility;
+ 
+   /* Support for Firefox. */
+   -moz-osx-font-smoothing: grayscale;
+ 
+   /* Support for IE. */
+   font-feature-settings: 'liga';
+ }
